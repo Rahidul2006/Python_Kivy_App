@@ -74,11 +74,6 @@ pip install "kivy[full]"
 pip install kivymd
 ```
 
-Or install all at once:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -171,21 +166,6 @@ See **[build.md](build.md)** for detailed APK building instructions using Google
 - [Buildozer Documentation](https://buildozer.readthedocs.io/)
 - [Material Design Guide](https://material.io/design)
 - [Kivy Garden](https://github.com/kivy-garden)
-
----
-
-## 💡 Tips & Tricks
-
-- **Hot Reload:** Use Kivy's auto-reload feature during development
-- **Debugging:** Enable Kivy logger for debugging: `from kivy.logger import Logger`
-- **Performance:** Use Canvas for drawing instead of widgets for better performance
-- **Mobile Testing:** Use [Buildozer](https://buildozer.readthedocs.io/) for testing on Android
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
